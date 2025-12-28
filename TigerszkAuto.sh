@@ -1,11 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
 termux-wake-lock
-if ! grep -q "$WATERMARK_NAME" "$0"; then
-    echo -e "\e[1;31m[WARNING] Script watermark has been modified!\e[0m"
-    echo -e "\e[1;31mUnauthorized copy detected.\e[0m"
-    sleep 3
-fi
-
 echo -e "\e[1;33m--[AUTO VERUS MINING ANDROID 5, 6, 7+, 32 & 64 Bit]--\e[0m"
 sleep 2
 echo -e "\e[1;33m[INFO] Starting Auto Installation\e[0m"
